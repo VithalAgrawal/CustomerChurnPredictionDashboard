@@ -8,6 +8,6 @@ pandas
 numpy
 scipy
 sklearn
-scikit-learn==1.2.2
+scikit-learn
 xgboost
 gunicorn
