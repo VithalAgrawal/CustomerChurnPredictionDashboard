@@ -108,6 +108,7 @@ for model_name, y_pred in models.items():
 
 # app = dash.Dash(__name__)
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.DARKLY])
+server = app.server
 
 
 # defining the layout of the dashboard
